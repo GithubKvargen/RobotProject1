@@ -63,16 +63,16 @@ FirstSeleniumTest
     Sleep    2
     Close Browser
 
-SampleLoginTest
-    [Documentation]    Sameple login test
-    Open Browser     ${URL}    gc
-    Input Text    id=txtUsername    ${dVar}[username] 
-    Input Text    id=txtPassword    ${dVar}[password]
-    Click Button    id=btnLogin
-    Click Element   id=welcome
-    Sleep    1
-    Click Element    link=Logout  
-    Sleep    2
+# SampleLoginTest
+    # [Documentation]    Sameple login test
+    # Open Browser     ${URL}    gc
+    # Input Text    id=txtUsername    ${dVar}[username] 
+    # Input Text    id=txtPassword    ${dVar}[password]
+    # Click Button    id=btnLogin
+    # Click Element   id=welcome
+    # Sleep    1
+    # Click Element    link=Logout  
+    # Sleep    2
         
     
     
